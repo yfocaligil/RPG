@@ -1,0 +1,547 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.5f1 (4ec9a5e799f5) revision 5163429'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'tr' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/OneDrive/Masaüstü/unityprojeler/RPG PROJE
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58835
+Successfully changed project path to: C:/Users/user/OneDrive/Masaüstü/unityprojeler/RPG PROJE
+C:/Users/user/OneDrive/Masaüstü/unityprojeler/RPG PROJE
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 75.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.5f1 (4ec9a5e799f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/OneDrive/Masaüstü/unityprojeler/RPG PROJE/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.14.9729
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006849 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (565ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (418ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007440 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\OneDrive\Masaüstü\unityprojeler\RPG PROJE\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\OneDrive\Masaüstü\unityprojeler\RPG PROJE\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (207ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.3 KB). Loaded Objects now: 3695.
+Memory consumption went from 144.4 MB to 144.3 MB.
+Total: 4.733500 ms (FindLiveObjects: 0.533400 ms CreateObjectMapping: 0.109600 ms MarkObjects: 3.878300 ms  DeleteObjects: 0.210400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1826.640009 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(dfdbb5f07ade8094191b309d09179ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(dfdbb5f07ade8094191b309d09179ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dee7ef111c844f44ea0fc2c08730021') in 0.054941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2599.236156 seconds.
+  path: Assets/RPGAssets
+  artifactKey: Guid(c3a5449da26c54d4f8b25435b1d01b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets using Guid(c3a5449da26c54d4f8b25435b1d01b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c50f6f4d30e586b7ef26fc037d8568') in 0.006894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.858541 seconds.
+  path: Assets/RPGAssets/Details
+  artifactKey: Guid(0cb4ea057ec825048bda28376c333b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Details using Guid(0cb4ea057ec825048bda28376c333b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f31241cdb6aefcf7d469457693e9d0') in 0.005228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.198922 seconds.
+  path: Assets/RPGAssets/Trees
+  artifactKey: Guid(44e5f530da8f72349800c2fe0a8553df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Trees using Guid(44e5f530da8f72349800c2fe0a8553df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef233bfb34719a508811f6dfaec96388') in 0.007568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.023614 seconds.
+  path: Assets/RPGAssets/Terrain Textures
+  artifactKey: Guid(44311e5753eb0254ead153d5a7e48696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Terrain Textures using Guid(44311e5753eb0254ead153d5a7e48696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7b9dc6358d6c3c8c0babe45c418b14') in 0.005680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046755 seconds.
+  path: Assets/RPGAssets/Terrain Textures/BlueTexture.jpg
+  artifactKey: Guid(ae64f0935f877924fb27fa246fbb1778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Terrain Textures/BlueTexture.jpg using Guid(ae64f0935f877924fb27fa246fbb1778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9bcd1bd5424a061b28fcf0c7b212b3') in 0.091975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPGAssets/Terrain Textures/TT_Brown Mud.BMP
+  artifactKey: Guid(6873e5be66ca4cb479326f827944ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Terrain Textures/TT_Brown Mud.BMP using Guid(6873e5be66ca4cb479326f827944ee04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b04fafbdf2007f94d7028f6fe8b3e62') in 0.027097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPGAssets/Terrain Textures/TT_Cliff.jpg
+  artifactKey: Guid(80598239e7a383e4b8472b6305194c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Terrain Textures/TT_Cliff.jpg using Guid(80598239e7a383e4b8472b6305194c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a86738e915014df81e295f58570a93') in 0.055696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPGAssets/Terrain Textures/TT_Cobblestone Floor Dark.png
+  artifactKey: Guid(69ba02ae41d44554e970050ac01b97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Terrain Textures/TT_Cobblestone Floor Dark.png using Guid(69ba02ae41d44554e970050ac01b97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c850b32e1139657465d09e0537bb60b0') in 0.042576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGAssets/Terrain Textures/TT_Cobblestone Floor.jpg
+  artifactKey: Guid(dc56d05306299f047a3570a2c7cf8b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Terrain Textures/TT_Cobblestone Floor.jpg using Guid(dc56d05306299f047a3570a2c7cf8b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea08953d5b834513decd65c8409c127') in 0.067586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.340775 seconds.
+  path: Assets/RPGAssets/Trees/Shared Sources/Textures/BODT Conifer Branches [Trans] [Smoothness].psd
+  artifactKey: Guid(ca6a46a4d37514e00ae826202bad794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Trees/Shared Sources/Textures/BODT Conifer Branches [Trans] [Smoothness].psd using Guid(ca6a46a4d37514e00ae826202bad794e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee044797637ef642f0beb0bb2752c5d2') in 0.029649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_boat_01_a.tif
+  artifactKey: Guid(bf5b2ec731c13964a9fa211be49310a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_boat_01_a.tif using Guid(bf5b2ec731c13964a9fa211be49310a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3680c1dffead179b1c860f8f945d055f') in 0.081823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPGAssets/Trees/Shared Sources/Textures/BODT Conifer x Stump [Albedo] [Smoothness].tif
+  artifactKey: Guid(d7e1060759db04260bbeb12bc11664bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Trees/Shared Sources/Textures/BODT Conifer x Stump [Albedo] [Smoothness].tif using Guid(d7e1060759db04260bbeb12bc11664bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f582af20ae2e1ee2b4d9987cc62092') in 0.024108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.597483 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_boat_01_sg.tif
+  artifactKey: Guid(77155b43427e6484faa84f5c6148987e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_boat_01_sg.tif using Guid(77155b43427e6484faa84f5c6148987e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94671cb37508b9ea180ae1b07d944334') in 0.052809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023896 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_building_01_a.tif
+  artifactKey: Guid(7e2a7f9207a3041c3ab551bdc38c01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_building_01_a.tif using Guid(7e2a7f9207a3041c3ab551bdc38c01f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce81341c18fb7a6ee0b59886928a62f') in 0.012915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.192044 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_building_01_n.tif
+  artifactKey: Guid(5f760959571654ec89315e48935ff19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_building_01_n.tif using Guid(5f760959571654ec89315e48935ff19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b800563e412c1caad58b40ea456010a') in 0.041080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018650 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_building_02_n.tif
+  artifactKey: Guid(7c698ee313030466c876f42787f03454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_building_02_n.tif using Guid(7c698ee313030466c876f42787f03454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a1017f9fc9c5b04b95123f822a026c') in 0.050133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239451 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_crane_01_n.tif
+  artifactKey: Guid(ea0a92e8a50e62240b6bc279aebedd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_crane_01_n.tif using Guid(ea0a92e8a50e62240b6bc279aebedd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e4a9ad2bd4757e332253343affd5a5') in 0.018513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037609 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_crane_01_sg.tif
+  artifactKey: Guid(b6f5fe5c7e85d2c488b791c9ba6f6121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_crane_01_sg.tif using Guid(b6f5fe5c7e85d2c488b791c9ba6f6121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ce23c10e3cd0033087abbb1a1684c1') in 0.014004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341495 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_crane_02_o.tif
+  artifactKey: Guid(683c1dcb02f6e5448b6885fb430c4e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_crane_02_o.tif using Guid(683c1dcb02f6e5448b6885fb430c4e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5253970cfb6ff59b841b98e6eefa31bc') in 0.016882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037460 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_dragonhead_01_a.tif
+  artifactKey: Guid(dd802b999a449eb44b718cae84835eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_dragonhead_01_a.tif using Guid(dd802b999a449eb44b718cae84835eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57fe2b9eb90fb20afa69cfafd22d1e91') in 0.015427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.437815 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_dragonhead_01_o.tif
+  artifactKey: Guid(72c790efad7a83e40bffe34794501e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_dragonhead_01_o.tif using Guid(72c790efad7a83e40bffe34794501e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916b68c6279cc89a26ddfb5f8728df18') in 0.012629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034169 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_gate_01_n.tif
+  artifactKey: Guid(bee684098c479c64fa8bf8f50c2544be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_gate_01_n.tif using Guid(bee684098c479c64fa8bf8f50c2544be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b8c5ff7c94fbe8e6e06f664f4affd5') in 0.021003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029232 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_gate_02_o.tif
+  artifactKey: Guid(abd561da7892df443b86edd1e80a1fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_gate_02_o.tif using Guid(abd561da7892df443b86edd1e80a1fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69870751250c5d61fee1bd2dc0d83e31') in 0.014185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.664295 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_strawroofs_01_a.tif
+  artifactKey: Guid(23f9b61e82d1a484e8d09394b298c3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_strawroofs_01_a.tif using Guid(23f9b61e82d1a484e8d09394b298c3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146156d6a88c85287696b2736482f026') in 0.019348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030668 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_strawroofs_01_o.tif
+  artifactKey: Guid(d67d76fd50a8ead43ab6c408277202a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_strawroofs_01_o.tif using Guid(d67d76fd50a8ead43ab6c408277202a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d30a3ae9f9fb7fbd4d908ccac79ab95') in 0.018835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_tower_01_n.tif
+  artifactKey: Guid(7ae2ae16460c9684182cab0ca61dfeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_tower_01_n.tif using Guid(7ae2ae16460c9684182cab0ca61dfeda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42126fcc892fd573e6d6ac0b989a9728') in 0.016907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017466 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_tower_02_a.tif
+  artifactKey: Guid(34845642a9dbe004aac657852e4b63e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_tower_02_a.tif using Guid(34845642a9dbe004aac657852e4b63e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083ffd3c634db56c623d2763d2473cf5') in 0.014181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212814 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_tower_02_o.tif
+  artifactKey: Guid(1efc88df58bfb8141aaec6144749c70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_tower_02_o.tif using Guid(1efc88df58bfb8141aaec6144749c70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587d00b6c169ce0ee7d031053c4ad244') in 0.015175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036722 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_tower_03_sg.tif
+  artifactKey: Guid(b08980c5784d06d4fad7fc716ea86f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_tower_03_sg.tif using Guid(b08980c5784d06d4fad7fc716ea86f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5388d62c0748e63b96fc13990b6194e') in 0.017106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180771 seconds.
+  path: Assets/RPGAssets/Buildings/Textures/build_village_fence_01_sg.tif
+  artifactKey: Guid(7b5bb3bdc8bed61439e9900591311b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Textures/build_village_fence_01_sg.tif using Guid(7b5bb3bdc8bed61439e9900591311b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e410b09adf91e28de74809f1bb1e52b') in 0.014999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045222 seconds.
+  path: Assets/RPGAssets/Trees/Shared Sources/Textures/Billboards/Billboard Medium/Conifer Medium [Normal] [Trans] [Smoothness].png
+  artifactKey: Guid(a04078cc622984be682e2d4cfe2a4626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Trees/Shared Sources/Textures/Billboards/Billboard Medium/Conifer Medium [Normal] [Trans] [Smoothness].png using Guid(a04078cc622984be682e2d4cfe2a4626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb65af026c9737261b2eb0f0cc2646e3') in 0.022884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPGAssets/Trees/Shared Sources/Textures/Billboards/Billboard Tall/Conifer Tall  [Normal] [Trans] [Smoothness].png
+  artifactKey: Guid(8563448672a814173927f49bd00c2988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Trees/Shared Sources/Textures/Billboards/Billboard Tall/Conifer Tall  [Normal] [Trans] [Smoothness].png using Guid(8563448672a814173927f49bd00c2988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8778169818253192ee7feafcc2d8d514') in 0.018971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178805 seconds.
+  path: Assets/RPGAssets/Enemy/Enemy_Body_diffuse.png
+  artifactKey: Guid(d76c8c930ade4384ab2febfb2bbcb1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Enemy/Enemy_Body_diffuse.png using Guid(d76c8c930ade4384ab2febfb2bbcb1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396faee9e7114812e91e604600db54a3') in 0.013804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017526 seconds.
+  path: Assets/RPGAssets/Enemy/Enemy_Body_normal.png
+  artifactKey: Guid(fade74531360c3e419252113bd6f27cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Enemy/Enemy_Body_normal.png using Guid(fade74531360c3e419252113bd6f27cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf448c34c61699e2593e8c6b2cce317') in 0.020346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036194 seconds.
+  path: Assets/RPGAssets/Enemy/Enemy_Shoes_diffuse.png
+  artifactKey: Guid(04154c6972fa00f40abd093c0e366fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Enemy/Enemy_Shoes_diffuse.png using Guid(04154c6972fa00f40abd093c0e366fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc68e632e007f8f7e09e1acc18640d1f') in 0.011382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.875712 seconds.
+  path: Assets/RPGAssets/Enemy/Enemy_Shoes_normal.png
+  artifactKey: Guid(2d13956cc07b4b843a32a0903245668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Enemy/Enemy_Shoes_normal.png using Guid(2d13956cc07b4b843a32a0903245668e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e5f48027eb692584839c1c818afd63') in 0.024990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041465 seconds.
+  path: Assets/RPGAssets/Enemy/Enemy_Top_gloss.png
+  artifactKey: Guid(2999e4e2a25192840b481d3d9dd89dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Enemy/Enemy_Top_gloss.png using Guid(2999e4e2a25192840b481d3d9dd89dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2789fedb9e57fa2ffc850b1232af15') in 0.013993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026269 seconds.
+  path: Assets/RPGAssets/Details/Flowers/Flower 1.png
+  artifactKey: Guid(fb308d78d8746474e99ec6fed271be47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Details/Flowers/Flower 1.png using Guid(fb308d78d8746474e99ec6fed271be47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd5cbaaffc44eb45c8a2e574c05ff1c') in 0.016648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.207782 seconds.
+  path: Assets/RPGAssets/Details/Flowers/Flower 3.png
+  artifactKey: Guid(29e3fe75c99d8e844968809f050301bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Details/Flowers/Flower 3.png using Guid(29e3fe75c99d8e844968809f050301bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97866456046c30d96eddda5dcb704b9a') in 0.017044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022021 seconds.
+  path: Assets/RPGAssets/Details/Grass/Grass 2.png
+  artifactKey: Guid(62ccf45c509ff1946ad9fa10b558a01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Details/Grass/Grass 2.png using Guid(62ccf45c509ff1946ad9fa10b558a01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5148d1ec54c7408980da631cde3f48') in 0.014584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.284835 seconds.
+  path: Assets/RPGAssets/Character/Character/Karakter/Karakter_Body_gloss.png
+  artifactKey: Guid(2f84afefd05cd9247bc65c856c8db24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character/Character/Karakter/Karakter_Body_gloss.png using Guid(2f84afefd05cd9247bc65c856c8db24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099f1737f6905ade54f8e711f718ffb8') in 0.015916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036840 seconds.
+  path: Assets/RPGAssets/Character/Character/Karakter/Karakter_Bottom_gloss.png
+  artifactKey: Guid(be4b25a7ac657be43bea5412c01cd2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character/Character/Karakter/Karakter_Bottom_gloss.png using Guid(be4b25a7ac657be43bea5412c01cd2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6c52c0d43348881fa9e3ce9a6c232d') in 0.014546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.282033 seconds.
+  path: Assets/RPGAssets/Character/Character/Karakter/Karakter_Shoes_gloss.png
+  artifactKey: Guid(4d7b4618f7a39e44383dfc39ee880308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character/Character/Karakter/Karakter_Shoes_gloss.png using Guid(4d7b4618f7a39e44383dfc39ee880308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '347f17377798da128378226956c0c5de') in 0.018802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041824 seconds.
+  path: Assets/RPGAssets/Character/Character/Karakter/Karakter_Top_gloss.png
+  artifactKey: Guid(f8dce09758b49264eaf5e0cfaec238c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character/Character/Karakter/Karakter_Top_gloss.png using Guid(f8dce09758b49264eaf5e0cfaec238c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252fe3662f04cba54a289ba224141345') in 0.019087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260704 seconds.
+  path: Assets/RPGAssets/Character2/Player_Body_gloss.png
+  artifactKey: Guid(65f6c6988aa0c3244b71de904775abaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character2/Player_Body_gloss.png using Guid(65f6c6988aa0c3244b71de904775abaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee0fdf6563c905d33c108ceaa97dd41') in 0.014099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018187 seconds.
+  path: Assets/RPGAssets/Character2/Player_Body_specular.png
+  artifactKey: Guid(d265263f52981af4c91f7837293062d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character2/Player_Body_specular.png using Guid(d265263f52981af4c91f7837293062d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa867073b7c6ec2071ecee6785cce75') in 0.014918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051353 seconds.
+  path: Assets/RPGAssets/Character2/Player_Bottom_specular.png
+  artifactKey: Guid(08dd511a02a26fa429d0fda39075a2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character2/Player_Bottom_specular.png using Guid(08dd511a02a26fa429d0fda39075a2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d58c6ffea522fde16b7e891d475894e') in 0.013752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.213705 seconds.
+  path: Assets/RPGAssets/Character2/Player_Shoes_gloss.png
+  artifactKey: Guid(c90a09baba8decd4b91b149b418a6f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character2/Player_Shoes_gloss.png using Guid(c90a09baba8decd4b91b149b418a6f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbed5d6d306f53ab73fc94333b28c42f') in 0.014659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022019 seconds.
+  path: Assets/RPGAssets/Character2/Player_Shoes_specular.png
+  artifactKey: Guid(519feca019dedde4bb2917a462145c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character2/Player_Shoes_specular.png using Guid(519feca019dedde4bb2917a462145c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f00d07ae8d94c322d6286e92cff48c') in 0.013584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035901 seconds.
+  path: Assets/RPGAssets/Character2/Player_Top_specular.png
+  artifactKey: Guid(c2422754c5870d64f85ebd05a5fcf559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Character2/Player_Top_specular.png using Guid(c2422754c5870d64f85ebd05a5fcf559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871c2b300cd2e87b93054d10ed214fe5') in 0.012381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1215.619068 seconds.
+  path: Assets/RPGAssets/Buildings/Models/Buildings/build_barracks_single_01.fbx
+  artifactKey: Guid(d3f6bd8686fd5e546964fa0f307f09f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Models/Buildings/build_barracks_single_01.fbx using Guid(d3f6bd8686fd5e546964fa0f307f09f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6790bee42b7aaeedfb0f78e08a23d12d') in 0.642096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPGAssets/Buildings/Models/Buildings/build_bighouse_01.fbx
+  artifactKey: Guid(c3296d0d1865964468574f415b0b983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Models/Buildings/build_bighouse_01.fbx using Guid(c3296d0d1865964468574f415b0b983e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a6b58c97a513becfc423e41df5f6c8') in 0.123601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/RPGAssets/Buildings/Models/Buildings/build_gate_01.fbx
+  artifactKey: Guid(5f643dd3063229e4380c16656cb6cb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Models/Buildings/build_gate_01.fbx using Guid(5f643dd3063229e4380c16656cb6cb25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed3e5fe0e75d57adca4e4f8bccd43fc') in 0.018223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPGAssets/Buildings/Models/Buildings/build_boat_01.FBX
+  artifactKey: Guid(c0e3cc442127dbd49821a91bcca81459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Models/Buildings/build_boat_01.FBX using Guid(c0e3cc442127dbd49821a91bcca81459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf90605058024e9d49058c9aeb02f51') in 0.079964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.828040 seconds.
+  path: Assets/RPGAssets/Buildings/Models/Buildings/build_small_house_tall_roof_01.FBX
+  artifactKey: Guid(67a47adc57ef94348bd6354ed310f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Models/Buildings/build_small_house_tall_roof_01.FBX using Guid(67a47adc57ef94348bd6354ed310f779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd01c7522ea2ea7391ec53c58d4dfed4') in 0.038688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.286947 seconds.
+  path: Assets/RPGAssets/Buildings/Models/Buildings/build_tower_01.FBX
+  artifactKey: Guid(1eb5989802803ad45b51184df8643cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Models/Buildings/build_tower_01.FBX using Guid(1eb5989802803ad45b51184df8643cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e33059b4ce62e13682e69b38ec1d63') in 0.021353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.330397 seconds.
+  path: Assets/RPGAssets/Buildings/Models/Buildings/build_wall_panel_01.FBX
+  artifactKey: Guid(8f846af047fb875419e8afacc6cedb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Models/Buildings/build_wall_panel_01.FBX using Guid(8f846af047fb875419e8afacc6cedb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f83ac712ae411cca12a0199765b4c29') in 0.018536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026147 seconds.
+  path: Assets/RPGAssets/Animations/DeathAnimation.fbx
+  artifactKey: Guid(10755f32680df7149811e2ae03cc6441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Animations/DeathAnimation.fbx using Guid(10755f32680df7149811e2ae03cc6441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd266696f4d8d9f65120ed71a561c6e1e') in 0.095909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.688790 seconds.
+  path: Assets/RPGAssets/Trees/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab
+  artifactKey: Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Trees/Render Pipeline Support/Built-in RP/Prefabs/PF Conifer Small BOTD.prefab using Guid(7e3c80b421a0d465b80b8e51a763ea9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e81e5ec0f07327fbd86d38895914c4') in 1.399801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/RPGAssets/Buildings/Buildings/pf_build_boat_02.prefab
+  artifactKey: Guid(637d36d5cd3ab194e9614570eb8d48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Buildings/pf_build_boat_02.prefab using Guid(637d36d5cd3ab194e9614570eb8d48a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a7674bb397dfb9b44779c6cac905ad') in 0.308073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.577354 seconds.
+  path: Assets/RPGAssets/Buildings/Buildings/pf_build_bighouse_01.prefab
+  artifactKey: Guid(70b1cc9351b9b644f8490dc82ba9ec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Buildings/pf_build_bighouse_01.prefab using Guid(70b1cc9351b9b644f8490dc82ba9ec50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d059f988fbf79121c7a03e16f841b15') in 0.247485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2388.628687 seconds.
+  path: Assets/RPGAssets/Buildings/Buildings/pf_build_small_house_01.prefab
+  artifactKey: Guid(3c8ce989a89bfce4da004b17f42d7298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Buildings/pf_build_small_house_01.prefab using Guid(3c8ce989a89bfce4da004b17f42d7298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8bd54db6346d861cc7808ff593d6d3') in 0.231328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/RPGAssets/Buildings/Buildings/pf_build_small_house_straw_roof_01.prefab
+  artifactKey: Guid(edc187f9f9ba43449800751ee6d59cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGAssets/Buildings/Buildings/pf_build_small_house_straw_roof_01.prefab using Guid(edc187f9f9ba43449800751ee6d59cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b5bf9bd75e10b64ea95389ef397115') in 0.541615 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
