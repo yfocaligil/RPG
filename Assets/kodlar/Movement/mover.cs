@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+
+namespace RPG.Movement 
+{
 public class mover : MonoBehaviour
 {
     
@@ -22,24 +25,18 @@ GetComponent<Animator>().SetFloat("forwardSpeed",speed);
     
     void Update()
     {
-        if(Input.GetMouseButton(0))
-        {
-       Movetocursor();
-       
-        }
+        
         Updateanimator();
        
        
     }
 
-    private void Movetocursor()
+    
+
+    public void MoveTo(Vector3 hit)
     {
-        Ray ray=Camera.main.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-        bool hasHit=Physics.Raycast(ray, out hit);
-        if(hasHit==true)
-        {
-            GetComponent<NavMeshAgent>().destination=hit.point;
-        }
+        GetComponent<NavMeshAgent>().destination = hit;
     }
+}
+
 }
